@@ -1,0 +1,20 @@
+[project]
+name = "contador-procesos"
+version = "0.1.0"
+description = "Generador de registros de procesos en PDF"
+authors = [
+    { name = "Henry Quinde", email = "hrypasato@gmail.com" }
+]
+license = { text = "MIT" }
+readme = "README.md"
+
+requires-python = ">=3.10,<3.13"
+
+dependencies = [
+    "streamlit>=1.32",
+    "reportlab>=4.0,<5.0"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
